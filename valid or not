@@ -1,0 +1,19 @@
+# include<iostream>
+using namespace std;
+int main()
+{
+   string s1,s2;
+   cout<<"enter the username";
+   cin>>s1;
+   cout<<"re enter the username";
+   cin>>s2;
+   if(s1=s2)
+   {
+   	cout<<"it is vaild";
+   }
+   else
+   {
+   	cout<<"it is not vaild";
+   }
+   return 0;
+}
