@@ -1,0 +1,23 @@
+# include<iostream>
+using namespace std;
+class add{
+	int x,y;
+	public:
+	void input();
+	void output();
+};
+void add::input(){
+	cout<<"enter the first number"<<endl;
+	cin>>x;
+	cout<<"enter the second number"<<endl;
+	cin>>y;
+}
+void add:: output() {
+	cout<<"sum of the two numbers:"<<x+y;
+}
+int main(){
+	add a;
+	a.input();
+	a.output();
+	return 0;
+}
