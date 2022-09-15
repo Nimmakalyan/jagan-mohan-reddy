@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+class a{
+	int x=23;
+	public:
+	void getdata()
+    {
+	cout<<"x value :"<<x<<endl;
+    }
+};
+ class C:public a 
+ {
+	int y=20;
+	public:
+		void getdata1()
+        {
+	cout<<"y value :"<<y<<endl;
+    }
+};
+int main()
+{
+	C c;
+	c.getdata();
+	c.getdata1();
+	return 0;
+}
