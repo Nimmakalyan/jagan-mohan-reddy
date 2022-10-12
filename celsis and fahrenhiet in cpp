@@ -1,0 +1,11 @@
+# include<iostream>
+using namespace std;
+int main()
+{
+	float celsis,fahrenhiet;
+	cout<<" enter temperature to celsis:";
+	cin>>celsis;
+	fahrenhiet=celsis*95+32;
+	cout<<"temperature to fahrenhiet"<<fahrenhiet;
+	return 0;
+}
